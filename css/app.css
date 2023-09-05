@@ -582,6 +582,7 @@ h4 {
 .contacto__content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 1.875em;
   width: min(75rem, 100%);
   margin: 0 auto;
 }
@@ -697,6 +698,9 @@ h4 {
   .header .navbar {
     font-size: 10px;
   }
+  .contacto__content {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (max-width: 47.99875em) {
   .container {
@@ -788,9 +792,6 @@ h4 {
   .preguntas__content {
     grid-template-columns: 1fr;
   }
-  .contacto__content {
-    grid-template-columns: 1fr 1fr;
-  }
   .footer .container {
     grid-template-columns: 1fr;
   }
@@ -805,5 +806,8 @@ h4 {
 @media (max-width: 480px) {
   .servicios {
     font-size: 12px;
+  }
+  .contacto__content {
+    grid-template-columns: 1fr;
   }
 }
