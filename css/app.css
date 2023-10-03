@@ -205,33 +205,19 @@ h4 {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
 .social-media a.x {
-  background: #000000;
+  background: #000;
 }
 .social-media a.x svg {
   margin-top: 0.25em;
 }
 .social-media a.x svg .st1 {
-  fill: #ffffff;
+  fill: #fff;
 }
 .social-media a.whatsapp {
   background-color: #0cb11a;
 }
 .social-media a:hover {
   margin-bottom: 0.625rem;
-}
-
-.backgrounds {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-}
-.backgrounds__item picture img {
-  object-fit: cover;
-  margin: 0 auto;
-  height: 120vh;
 }
 
 .header {
@@ -261,12 +247,12 @@ h4 {
   color: #1E5DB0;
 }
 .header__info .contact-info a:hover .fa {
-  color: #1E5DB0;
+  color: #ffc000;
 }
 .header__info .contact-info a .fa {
   transition: 0.3s;
   margin-right: 0.625rem;
-  color: #ffc000;
+  color: #1E5DB0;
 }
 .header__info .contact-info .phone {
   font-weight: 700;
@@ -309,6 +295,10 @@ h4 {
 }
 .header__language .language__item:hover {
   background: #ffc000;
+  color: #143e75;
+}
+.header__language h4 {
+  margin-top: 0.3125em;
   color: #143e75;
 }
 .header .navbar {
@@ -377,7 +367,7 @@ h4 {
 }
 
 .bienvenida {
-  background-image: url(../images/slide01.jpg);
+  background-image: url(../images/bg-heroshot.jpg);
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -561,7 +551,7 @@ h4 {
 }
 
 .productos {
-  background-image: url(../images/bg-productos.png);
+  background-image: url(../images/bg-productos.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
