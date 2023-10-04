@@ -683,6 +683,9 @@ h4 {
 .widget__whatsapp a:hover::after {
   border-color: #008069 transparent transparent transparent;
 }
+.widget__whatsapp a:first-child {
+  margin-bottom: 0.625em;
+}
 .widget__social {
   display: none;
   position: fixed;
@@ -708,7 +711,7 @@ h4 {
     transform: scale(1);
   }
   50% {
-    transform: scale(0.9);
+    transform: scale(0.95);
   }
   100% {
     transform: scale(1);
